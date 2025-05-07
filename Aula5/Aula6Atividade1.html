@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+     
+    }
+    title{
+      text-align: center;
+    }
+    form {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background:blue;
+      color: white;
+      padding: 10px 270px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1b1929;
+    }
+    .error {
+      color: red;
+      font-size: 12px;
+      margin-top: -10px;
+      margin-bottom: 10px;
+    }
+    v {text-box: black;
+
+    }
+    footer{
+        text-align: center;
+    }
+    
+  </style>
+</head>
+<body>
+    <main>
+  <h1>Formulários</h1>
+  <form action="/enviar-contato" method="POST">
+    <!-- Campo Nome  -->
+    <label for="nome">Nome completo*:</label>
+    <input 
+      type="text" 
+      id="nome" 
+      name="nome" 
+      required 
+      placeholder="Digite seu nome"
+    >
+    <!-- Botão -->
+<button type="submit">Testar</button>
+
+</main>
+
+<footer id="footer" >
+    <p>&copy; 2025 - Todos os direitos reservados.</p>
+</footer>
+</body>
+
+    
