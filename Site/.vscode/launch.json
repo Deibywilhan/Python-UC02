@@ -4,10 +4,11 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open index.html",
+            "name": "Open Navbar simoles",
             "file": "c:\\Users\\Carla\\Desktop\\Py\\Python-UC02\\Site\\index.html"
         }
     ]
